@@ -5,6 +5,7 @@ BRDrawe is a subclass of NSObject, instead of NSDrawer. It's like QQ for Mac.
 ##Usage
 ####init
 > - (instancetype)initWithContentSize:(NSSize)size preferredEdge:(NSRectEdge)edge
+
 ####control
 > - (IBAction)open:(nullable id)sender;
 > - (IBAction)close:(nullable id)sender;
