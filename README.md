@@ -15,3 +15,6 @@ BRDrawe is a subclass of NSObject, instead of NSDrawer. It's like QQ for Mac.
 
 ####Or
 > Interface Builder
+
+-------
+For more details, see [This blog](http://www.jianshu.com/p/437c4636d63a).
