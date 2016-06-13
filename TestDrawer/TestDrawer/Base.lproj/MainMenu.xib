@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9060" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9060"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -688,14 +687,13 @@
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" frameAutosaveName="" animationBehavior="default" id="oPf-Oa-q9j">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
             <rect key="contentRect" x="672" y="355" width="254" height="283"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
             <view key="contentView" id="NhY-1P-xqU">
                 <rect key="frame" x="0.0" y="0.0" width="254" height="283"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rsa-LE-WQv" customClass="BRButton">
                         <rect key="frame" x="99" y="8" width="56" height="15"/>
-                        <animations/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="textAlignment">
                                 <real key="value" value="5"/>
@@ -712,16 +710,14 @@
                         </connections>
                     </customView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHH-64-O9w">
-                        <rect key="frame" x="67" y="163" width="120" height="30"/>
-                        <animations/>
+                        <rect key="frame" x="64" y="165" width="127" height="30"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="BRDrawer" id="Vdb-fq-7aX">
-                            <font key="font" metaFont="systemSemibold" size="25"/>
+                            <font key="font" size="25" name=".HelveticaNeueDeskInterface-Bold"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                 </subviews>
-                <animations/>
             </view>
             <point key="canvasLocation" x="539" y="417.5"/>
         </window>
@@ -731,7 +727,6 @@
             <subviews>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ym-7I-4qS">
                     <rect key="frame" x="20" y="40" width="106" height="14"/>
-                    <animations/>
                     <buttonCell key="cell" type="bevel" title="Check" bezelStyle="regularSquare" image="blank" imagePosition="left" alternateImage="selected" imageScaling="proportionallyUpOrDown" inset="2" id="y1j-tb-ch5">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -739,7 +734,6 @@
                 </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vU-hI-Hp7">
                     <rect key="frame" x="20" y="18" width="106" height="14"/>
-                    <animations/>
                     <buttonCell key="cell" type="bevel" title="Check" bezelStyle="regularSquare" image="blank" imagePosition="left" alternateImage="selected" imageScaling="proportionallyUpOrDown" inset="2" id="6vx-c1-8aC">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -747,7 +741,6 @@
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJr-lk-QYo">
                     <rect key="frame" x="187" y="39" width="49" height="17"/>
-                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Retieve" id="CRE-03-Wxp">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -756,7 +749,6 @@
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qmh-Bp-Nhy">
                     <rect key="frame" x="186" y="17" width="50" height="17"/>
-                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sign up" id="RUw-k9-v07">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -764,7 +756,6 @@
                     </textFieldCell>
                 </textField>
             </subviews>
-            <animations/>
             <connections>
                 <outlet property="check1" destination="9Ym-7I-4qS" id="wgS-0g-4CF"/>
                 <outlet property="check2" destination="6vU-hI-Hp7" id="BKj-Gx-pUR"/>

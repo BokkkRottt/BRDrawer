@@ -198,6 +198,7 @@ NSString * const BRDrawerDidCloseNotification = @"BRDrawerDidCloseNotification";
 - (instancetype)initDefaultWindow
 {
     self = [self initWithContentRect:NSZeroRect styleMask:NSBorderlessWindowMask backing:NSBackingStoreBuffered defer:NO];
+    self.opaque = NO;
     return self;
 }
 
