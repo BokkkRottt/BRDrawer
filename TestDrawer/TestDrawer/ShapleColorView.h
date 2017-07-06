@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
+IB_DESIGNABLE
 @interface ShapleColorView : NSView
+
+@property (copy) IBInspectable NSColor *fillColor;
 
 @end

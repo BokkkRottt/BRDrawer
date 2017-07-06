@@ -19,12 +19,14 @@
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     
-    [[NSColor clearColor] setFill];
-    NSRectFill(dirtyRect);
-    
-    [[NSColor colorWithRed:0.0 green:0.75 blue:1 alpha:0.9] setFill];
-    NSBezierPath * shaple = [NSBezierPath bezierPathWithRoundedRect:self.bounds xRadius:8 yRadius:8];
-    [shaple fill];
+    if (self.fillColor) {
+        [[NSColor clearColor] setFill];
+        NSRectFill(dirtyRect);
+        
+        [self.fillColor setFill];
+        NSBezierPath * shaple = [NSBezierPath bezierPathWithRoundedRect:self.bounds xRadius:8 yRadius:8];
+        [shaple fill];
+    }
 }
 
 - (void)awakeFromNib
