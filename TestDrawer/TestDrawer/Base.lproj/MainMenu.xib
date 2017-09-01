@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16G16b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16G24b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -772,7 +772,7 @@
                 <outlet property="check1" destination="9Ym-7I-4qS" id="wgS-0g-4CF"/>
                 <outlet property="check2" destination="6vU-hI-Hp7" id="BKj-Gx-pUR"/>
             </connections>
-            <point key="canvasLocation" x="519" y="672"/>
+            <point key="canvasLocation" x="539" y="655"/>
         </view>
     </objects>
     <resources>

@@ -15,6 +15,15 @@
 		2F8328C41CA13D4F00E0CEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8328C31CA13D4F00E0CEB9 /* Assets.xcassets */; };
 		2F8328C71CA13D4F00E0CEB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8328C51CA13D4F00E0CEB9 /* MainMenu.xib */; };
 		2F8328D31CA141F000E0CEB9 /* ShapleColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8328D21CA141F000E0CEB9 /* ShapleColorView.m */; };
+		2FDD2A4B1F58F15100E604F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD2A4A1F58F15100E604F7 /* AppDelegate.m */; };
+		2FDD2A4E1F58F15100E604F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD2A4D1F58F15100E604F7 /* main.m */; };
+		2FDD2A511F58F15100E604F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD2A501F58F15100E604F7 /* ViewController.m */; };
+		2FDD2A561F58F15100E604F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDD2A541F58F15100E604F7 /* Main.storyboard */; };
+		2FDD2A5B1F58F17000E604F7 /* BRDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F20C2F31CA23428008C6536 /* BRDrawer.m */; };
+		2FDD2A5E1F58F1D000E604F7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD2A5D1F58F1D000E604F7 /* MainWindowController.m */; };
+		2FDD2A5F1F58F25A00E604F7 /* ShapleColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8328D21CA141F000E0CEB9 /* ShapleColorView.m */; };
+		2FDD2A601F58F25D00E604F7 /* BRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F20C2F61CA2A10A008C6536 /* BRButton.m */; };
+		2FDD2A611F58F39100E604F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8328C31CA13D4F00E0CEB9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +41,27 @@
 		2F8328C81CA13D4F00E0CEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F8328D11CA141F000E0CEB9 /* ShapleColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapleColorView.h; sourceTree = "<group>"; };
 		2F8328D21CA141F000E0CEB9 /* ShapleColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapleColorView.m; sourceTree = "<group>"; };
+		2FDD2A471F58F15100E604F7 /* SBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDD2A491F58F15100E604F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FDD2A4A1F58F15100E604F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FDD2A4D1F58F15100E604F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FDD2A4F1F58F15100E604F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FDD2A501F58F15100E604F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FDD2A551F58F15100E604F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FDD2A571F58F15100E604F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDD2A5C1F58F1D000E604F7 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		2FDD2A5D1F58F1D000E604F7 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2F8328B71CA13D4F00E0CEB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDD2A441F58F15100E604F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,6 +78,7 @@
 				2F20C2F31CA23428008C6536 /* BRDrawer.m */,
 			);
 			name = BRDrawer;
+			path = TestDrawer;
 			sourceTree = "<group>";
 		};
 		2F20C2FC1CA2B58F008C6536 /* views */ = {
@@ -63,12 +90,17 @@
 				2F20C2F61CA2A10A008C6536 /* BRButton.m */,
 			);
 			name = views;
+			path = TestDrawer;
 			sourceTree = "<group>";
 		};
 		2F8328B11CA13D4F00E0CEB9 = {
 			isa = PBXGroup;
 			children = (
+				2F20C2FB1CA2B585008C6536 /* BRDrawer */,
+				2F20C2FC1CA2B58F008C6536 /* views */,
+				2FDD2A541F58F15100E604F7 /* Main.storyboard */,
 				2F8328BC1CA13D4F00E0CEB9 /* TestDrawer */,
+				2FDD2A481F58F15100E604F7 /* SBDemo */,
 				2F8328BB1CA13D4F00E0CEB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				2F8328BA1CA13D4F00E0CEB9 /* TestDrawer.app */,
+				2FDD2A471F58F15100E604F7 /* SBDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,8 +119,6 @@
 			children = (
 				2F8328BD1CA13D4F00E0CEB9 /* AppDelegate.h */,
 				2F8328BE1CA13D4F00E0CEB9 /* AppDelegate.m */,
-				2F20C2FB1CA2B585008C6536 /* BRDrawer */,
-				2F20C2FC1CA2B58F008C6536 /* views */,
 				2F8328C31CA13D4F00E0CEB9 /* Assets.xcassets */,
 				2F8328C51CA13D4F00E0CEB9 /* MainMenu.xib */,
 				2F8328C81CA13D4F00E0CEB9 /* Info.plist */,
@@ -101,6 +132,29 @@
 			children = (
 				2F20C2FD1CA2B646008C6536 /* demo.gif */,
 				2F8328C11CA13D4F00E0CEB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FDD2A481F58F15100E604F7 /* SBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FDD2A491F58F15100E604F7 /* AppDelegate.h */,
+				2FDD2A4A1F58F15100E604F7 /* AppDelegate.m */,
+				2FDD2A5C1F58F1D000E604F7 /* MainWindowController.h */,
+				2FDD2A5D1F58F1D000E604F7 /* MainWindowController.m */,
+				2FDD2A4F1F58F15100E604F7 /* ViewController.h */,
+				2FDD2A501F58F15100E604F7 /* ViewController.m */,
+				2FDD2A571F58F15100E604F7 /* Info.plist */,
+				2FDD2A4C1F58F15100E604F7 /* Supporting Files */,
+			);
+			path = SBDemo;
+			sourceTree = "<group>";
+		};
+		2FDD2A4C1F58F15100E604F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FDD2A4D1F58F15100E604F7 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,17 +179,39 @@
 			productReference = 2F8328BA1CA13D4F00E0CEB9 /* TestDrawer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2FDD2A461F58F15100E604F7 /* SBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDD2A5A1F58F15100E604F7 /* Build configuration list for PBXNativeTarget "SBDemo" */;
+			buildPhases = (
+				2FDD2A431F58F15100E604F7 /* Sources */,
+				2FDD2A441F58F15100E604F7 /* Frameworks */,
+				2FDD2A451F58F15100E604F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBDemo;
+			productName = SBDemo;
+			productReference = 2FDD2A471F58F15100E604F7 /* SBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2F8328B21CA13D4F00E0CEB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = sgyang;
 				TargetAttributes = {
 					2F8328B91CA13D4F00E0CEB9 = {
 						CreatedOnToolsVersion = 7.1.1;
+					};
+					2FDD2A461F58F15100E604F7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P447VHQCL3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -153,6 +229,7 @@
 			projectRoot = "";
 			targets = (
 				2F8328B91CA13D4F00E0CEB9 /* TestDrawer */,
+				2FDD2A461F58F15100E604F7 /* SBDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +242,15 @@
 				2F8328C41CA13D4F00E0CEB9 /* Assets.xcassets in Resources */,
 				2F20C2FE1CA2B646008C6536 /* demo.gif in Resources */,
 				2F8328C71CA13D4F00E0CEB9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDD2A451F58F15100E604F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDD2A611F58F39100E604F7 /* Assets.xcassets in Resources */,
+				2FDD2A561F58F15100E604F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +269,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2FDD2A431F58F15100E604F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FDD2A5E1F58F1D000E604F7 /* MainWindowController.m in Sources */,
+				2FDD2A511F58F15100E604F7 /* ViewController.m in Sources */,
+				2FDD2A601F58F25D00E604F7 /* BRButton.m in Sources */,
+				2FDD2A4E1F58F15100E604F7 /* main.m in Sources */,
+				2FDD2A5B1F58F17000E604F7 /* BRDrawer.m in Sources */,
+				2FDD2A4B1F58F15100E604F7 /* AppDelegate.m in Sources */,
+				2FDD2A5F1F58F25A00E604F7 /* ShapleColorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -192,6 +292,15 @@
 				2F8328C61CA13D4F00E0CEB9 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2FDD2A541F58F15100E604F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FDD2A551F58F15100E604F7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = SBDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -210,8 +319,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -253,8 +364,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -302,6 +415,40 @@
 			};
 			name = Release;
 		};
+		2FDD2A581F58F15100E604F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P447VHQCL3;
+				INFOPLIST_FILE = SBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgyang.SBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FDD2A591F58F15100E604F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P447VHQCL3;
+				INFOPLIST_FILE = SBDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgyang.SBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -322,6 +469,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		2FDD2A5A1F58F15100E604F7 /* Build configuration list for PBXNativeTarget "SBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FDD2A581F58F15100E604F7 /* Debug */,
+				2FDD2A591F58F15100E604F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
